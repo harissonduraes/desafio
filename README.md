@@ -17,7 +17,7 @@ o "tutorial-env" é o nome da pasta que vai criar e também o local a ser instal
 <p>2º Entrar no ambiente virtual com comando:<p/>
 
 ``` bash
-cd /olxcraping/tutorial-env
+cd Downloads/desafio-main/olxscraping
 source tutorial-env/bin/activate
 ```
   
