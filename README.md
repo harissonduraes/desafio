@@ -40,7 +40,7 @@ pip install pandas
 **Executando o código de webscraping:**
 Abra o terminal e entre na pasta do projeto com:
 ```bash
-cd /olxscraping
+cd desafio/olxscraping
 ```
 (local na minha máquina linux).
 
