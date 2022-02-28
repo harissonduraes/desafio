@@ -1,4 +1,4 @@
-# Webscraping e análise de dados com python
+## Webscraping e análise de dados com python
 
 Este é um desafio da Seazone que tive a oportunidade de fazer, agradeço desde já.
 Os códigos fazem webscraping e análise dos dados adquiridos usando python.
@@ -36,10 +36,13 @@ Será criado um arquivo csv nessa pasta com os dados.
 
 
 **Executando o código de análise de dados:**
-O código está em olxscraping/webscraping/olx_analise.py
-Ele executará no arquivo 
+<p>O código está em olxscraping/webscraping/olx_analise.py</p>
+<p>Ele executará no arquivo 
 olxscraping/webscraping/olx.csv que foi criado a partir da execução do webscraping.
-Ao executá-lo pedirá para digitar 1 para só mostrar na tela as informações ou 0 para criar 7 arquivos csv na pasta olxscraping/webscraping.
+Ao executá-lo pedirá para digitar 1 para só mostrar na tela as informações ou 0 para criar 7 arquivos csv na pasta olxscraping/webscraping.</p>
+<p>
+Obs.: Um bug acontece ao analisar o banco de dados criado, é preciso abrir o arquivo olx.csv e editar a última coluna "título", tirando o acento ficando "titulo".
+</p>
 
 **Resultados ao executar os códigos:**
 Os meus arquivos que criei com o código está em olxscraping/webscraping/resultados se quiser já vê-los. É preciso colocar o arquivo olx.csv na pasta olxscraping/webscraping para o código de análise rodar.
