@@ -5,9 +5,15 @@ Os códigos fazem webscraping e análise dos dados adquiridos usando python.
 O site é o de anúncios da Olx. A página dos terrenos é: https://sc.olx.com.br/florianopolis-e-regiao/imoveis/terrenos
 
 **Pré-requisitos:**
-As bibliotecas já estão inseridas no ambiente virtual da pasta venv. São elas:
+As bibliotecas:
 Pandas,
 Scrapy.
+1º Criar ambiente virtual na pasta olxscraping com comando "python3 -m venv tutorial-env", o tutorial-env é o nome da pasta que vai criar e também o local a ser instalado.
+2º Entrar no ambiente virtual com comando "cd /olxcraping/tutorial-env", "source tutorial-env/bin/activate"
+3º instalar scrapy com comando "pip install Scrapy", é recomendado instalar no ambiente virtual.
+4º instalar pandas com comando "pip install pandas"
+
+
 
 ## **WEBSCRAPING**
 <p align="center"></p>
