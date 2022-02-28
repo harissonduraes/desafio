@@ -1,2 +1,2 @@
-# desafio
-Este é um desafio da SeaZone que tive a oportunidade de fazer.
+# Webscraping e análise de dados com python
+
