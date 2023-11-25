@@ -1,6 +1,5 @@
 ## Webscraping e análise de dados com python
 
-Este é um desafio da Seazone que tive a oportunidade de fazer, agradeço desde já.
 Os códigos fazem webscraping e análise dos dados adquiridos usando python.
 O site é o de anúncios da Olx. A página dos terrenos é: https://sc.olx.com.br/florianopolis-e-regiao/imoveis/terrenos
 
@@ -11,28 +10,24 @@ Scrapy e o ambiente virtual.
 <p>1º Criar ambiente virtual na pasta olxscraping com comando:</p>
 
 ``` bash
-python3 -m venv tutorial-env
+python3 -m venv .env
 ```
 o "tutorial-env" é o nome da pasta que vai criar e também o local a ser instalado.
 <p>2º Entrar no ambiente virtual com comando:<p/>
 
-``` bash
-cd Downloads/desafio-main/olxscraping
-source tutorial-env/bin/activate
+``` bash windows
+source env/bin/activate
+```
+
+``` bash linux
+source env/Scripts/activate
 ```
   
-3º Instalar scrapy com comando: 
+3º Instalar scrapy e pandas com comando: 
 ``` bash
-pip install scrapy
+pip install scrapy pandas
 ```
 Obs.: é recomendado instalar no ambiente virtual.
-
-<p>4º Instalar pandas com comando: </p>
-
-``` bash
-pip install pandas
-```
-
 
 ## **WEBSCRAPING**
 <p align="center"></p>

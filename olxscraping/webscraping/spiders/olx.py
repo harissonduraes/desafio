@@ -6,6 +6,7 @@ class OlxSpider(scrapy.Spider):
     #PÁGINA PRINCIPAL DOS TERRENOS
     def start_requests(self):
         yield scrapy.Request(("https://sc.olx.com.br/florianopolis-e-regiao/imoveis/terrenos/"), callback=self.parse_category)
+        #yield scrapy.Request(("https://sc.olx.com.br/florianopolis-e-regiao/imoveis/terrenos/"), callback=self.parse_category, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
 	#CAPTURAR TODOS OS LINKS DE ANÚNCIOS DA 1ª PÁGINA
     def parse_category(self, response):
         news = response.xpath('//div//ul[@class="sc-1fcmfeb-1 kntIvV"]//@href').getall()
